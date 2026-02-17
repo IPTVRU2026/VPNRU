@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Speed Test - ICEBREAKER</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>🚀 Speed Test</h1>
+                <p>Измерение скорости интернета и проверка конфигов</p>
+                <a href="https://IPTVRU2026.github.io/VPNRU" class="github-link" style="background: #00ff9d; color: #0a0c0f;">
+                    🏠 На главную
+                </a>
+            </div>
+        </div>
+        
+        <div class="nav-tabs">
+            <a href="index.html" class="nav-tab">🏠 Главная</a>
+            <a href="happ-vpn.html" class="nav-tab happ">⚡ HAPP VPN</a>
+            <a href="telegram-proxy.html" class="nav-tab proxy">📱 Telegram Proxy</a>
+            <a href="proxyman.html" class="nav-tab iphone">🍎 ProxyMan iPhone</a>
+            <a href="speed-test.html" class="nav-tab speed">🚀 Speed Test</a>
+        </div>
+        
+        <div class="speed-test">
+            <h2>🚀 Измерение скорости</h2>
+            <div class="speed-meter">
+                <div class="speed-display">
+                    <span id="speedValue">0</span>
+                    <span class="speed-unit">Мбит/с</span>
+                </div>
+                <div class="speed-progress">
+                    <div class="speed-progress-bar"></div>
+                </div>
+                <button class="speed-btn" onclick="speedTest.testSpeed()">
+                    🚀 Начать измерение
+                </button>
+                <div class="speed-history"></div>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin: 40px 0 20px; color: var(--accent-happ);">
+            📸 Как понять результаты скорости
+        </h2>
+        
+        <div class="speed-guide">
+            <div class="speed-guide-item">
+                <h3>ШАГ 1: Куда нажимать</h3>
+                <img src="images/SPEED1.jpg" alt="Speed Test Step 1" onerror="this.src='https://via.placeholder.com/300x200?text=SPEED1.jpg'">
+                <p>Нажмите кнопку "Начать измерение" и подождите 5 секунд</p>
+                <span class="badge good">⬆️ Нажми сюда</span>
+            </div>
+            
+            <div class="speed-guide-item">
+                <h3>ШАГ 2: Что произойдёт</h3>
+                <img src="images/SPEED2.jpg" alt="Speed Test Step 2" onerror="this.src='https://via.placeholder.com/300x200?text=SPEED2.jpg'">
+                <p>Прогресс-бар заполнится и появится результат скорости</p>
+                <span class="badge good">📊 Результат</span>
+            </div>
+            
+            <div class="speed-guide-item">
+                <h3>ШАГ 3: Статус конфигов</h3>
+                <img src="images/SPEED3.jpg" alt="Speed Test Step 3" onerror="this.src='https://via.placeholder.com/300x200?text=SPEED3.jpg'">
+                <p>Если скорость > 0 - конфиг работает. Если 0 - не работает</p>
+                <div style="margin-top: 10px;">
+                    <span class="badge good" style="margin-right: 5px;">✅ >0 = работает</span>
+                    <span class="badge bad">❌ 0 = не работает</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🚀</div>
+                <h4>>50 Мбит/с</h4>
+                <p>Отличная скорость</p>
+                <span class="badge good">Конфиг работает отлично</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">👍</div>
+                <h4>20-50 Мбит/с</h4>
+                <p>Хорошая скорость</p>
+                <span class="badge good">Конфиг работает</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">👎</div>
+                <h4>1-20 Мбит/с</h4>
+                <p>Медленно, но работает</p>
+                <span class="badge good">Конфиг работает</span>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💀</div>
+                <h4>0 Мбит/с</h4>
+                <p>Конфиг не работает</p>
+                <span class="badge bad">Требуется замена</span>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🚀 Если скорость 0 - конфиг перестал работать, скачайте новый</p>
+            <p><a href="https://github.com/IPTVRU2026/VPNRU/releases/latest">📥 Скачать свежие конфиги</a></p>
+        </div>
+    </div>
+    
+    <script src="js/speed-test.js"></script>
+</body>
+</html>

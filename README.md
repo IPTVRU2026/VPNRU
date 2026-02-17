@@ -55,7 +55,7 @@
 ---
 
 <div align="center">
-    <sub>🔄 Автоматически обновлено: 17.02.2026 13:31 UTC</sub>
+    <sub>🔄 Автоматически обновлено: 17.02.2026 14:31 UTC</sub>
     <br>
     <sub>🧊 ICEBREAKER - HAPP VPN & ProxyMan</sub>
 </div>

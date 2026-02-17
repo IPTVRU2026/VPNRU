@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧊 ICEBREAKER - HAPP VPN & ProxyMan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>🧊 ICEBREAKER</h1>
+                <p>HAPP VPN • ProxyMan • Telegram Proxy</p>
+                <p style="margin-top: 10px; color: var(--text-secondary);">
+                    Универсальные решения для всех платформ
+                </p>
+                <div style="margin-top: 20px;">
+                    <a href="https://github.com/IPTVRU2026/VPNRU" class="github-link" target="_blank">
+                        📦 GitHub Репозиторий
+                    </a>
+                    <a href="https://IPTVRU2026.github.io/VPNRU" class="github-link" style="background: #00ff9d; color: #0a0c0f; margin-left: 10px;">
+                        🌐 Наш Сайт
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-tabs">
+            <a href="index.html" class="nav-tab">🏠 Главная</a>
+            <a href="happ-vpn.html" class="nav-tab happ">⚡ HAPP VPN</a>
+            <a href="telegram-proxy.html" class="nav-tab proxy">📱 Telegram Proxy</a>
+            <a href="proxyman.html" class="nav-tab iphone">🍎 ProxyMan iPhone</a>
+            <a href="speed-test.html" class="nav-tab speed">🚀 Speed Test</a>
+        </div>
+        
+        <div class="cards-grid">
+            <div class="card happ">
+                <div class="card-icon">⚡</div>
+                <h3>HAPP VPN</h3>
+                <p>Универсальный VPN для всех платформ<br>Windows • macOS • Android • iOS</p>
+                <div class="config-status">
+                    <span class="status-dot good"></span>
+                    <span class="status-text">HAPP VPN всегда работает</span>
+                </div>
+                <a href="happ-vpn.html" class="card-btn">Подробнее →</a>
+            </div>
+            
+            <div class="card proxy">
+                <div class="card-icon">📱</div>
+                <h3>Telegram Proxy</h3>
+                <p>Бесплатные прокси для Telegram<br>MTProto • SOCKS5</p>
+                <div class="config-status">
+                    <span class="status-dot good"></span>
+                    <span class="status-text">Есть рабочие прокси</span>
+                </div>
+                <a href="telegram-proxy.html" class="card-btn">Подробнее →</a>
+            </div>
+            
+            <div class="card iphone">
+                <div class="card-icon">🍎</div>
+                <h3>ProxyMan</h3>
+                <p>Лучший прокси-клиент для iPhone<br>HTTP • SOCKS5 • SSL</p>
+                <div class="config-status">
+                    <span class="status-dot good"></span>
+                    <span class="status-text">ProxyMan готов к работе</span>
+                </div>
+                <a href="proxyman.html" class="card-btn">Подробнее →</a>
+            </div>
+        </div>
+        
+        <div class="speed-test">
+            <h2>🚀 Измерение скорости</h2>
+            <div class="speed-meter">
+                <div class="speed-display">
+                    <span id="speedValue">0</span>
+                    <span class="speed-unit">Мбит/с</span>
+                </div>
+                <div class="speed-progress">
+                    <div class="speed-progress-bar"></div>
+                </div>
+                <button class="speed-btn" onclick="speedTest.testSpeed()">
+                    🚀 Начать измерение
+                </button>
+                <div class="speed-history"></div>
+            </div>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="speed-test.html" style="color: var(--accent-happ);">
+                    Полная версия теста с инструкцией →
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🧊 <strong>ICEBREAKER</strong> - HAPP VPN & ProxyMan</p>
+            <p style="margin-top: 10px;">
+                <a href="https://github.com/IPTVRU2026/VPNRU">GitHub</a> • 
+                <a href="https://IPTVRU2026.github.io/VPNRU">Сайт</a> • 
+                <a href="https://github.com/IPTVRU2026/VPNRU/releases/latest">Релизы</a>
+            </p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                Обновлено: 17.02.2026 13:30 UTC
+            </p>
+        </div>
+    </div>
+    
+    <script src="js/speed-test.js"></script>
+</body>
+</html>
